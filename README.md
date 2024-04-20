@@ -1,5 +1,5 @@
 # pedro henrique dos santos vieira
-desenvolverdor python junior 
+não achei mais estou bem depois de tantos erros 
 
 ## top 3 linguagem de progamação mais ou menos
 - javascript 
