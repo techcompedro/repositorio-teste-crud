@@ -1,5 +1,5 @@
 # pedro henrique dos santos vieira
-não achei mais estou bem depois de tantos erros 
+não achei que ia dar certo mais estou bem depois de tantos erros 
 
 ## top 3 linguagem de progamação mais ou menos
 - javascript 
