@@ -1,17 +1,13 @@
-# pedro henrique dos santos vieira
-não achei que ia dar certo mais estou bem depois de tantos erros 
+# CRUD MYSQL
 
-# essa foto é so para teste
-![não leve em cosideração](https://img.freepik.com/vetores-premium/um-aviao-comercial-em-um-estilo-de-desenho-animado-em-um-fundo-de-ceu-azul_584573-570.jpg?w=740)
-## top 3 linguagem de progamação mais ou menos
-- javascript 
-- python
-- html
+esse projeto foi desenvolvido no final do módulo de python.
+com objetivo de explorar os conceitos apendidos sobre python, linguagem SQL (banco de dados Msql) e interfaces
+gráficas (strem lit).
 
+## O QUE PRECISAR PARA UTILIZAR O PROJETO:
+- python 3.12.1
+- Mysql 8.0.36
+- Mysql connector 8.3.0
+- streamlit
 
-**exemplo de elmentos**
-1. água
-2.  fogo
-3. terra
-4.  ar
 
