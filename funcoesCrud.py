@@ -60,4 +60,11 @@ def vs():
     return resultadoConsulta
 
 
+def consultarPeloId(id):
+    # R - READ - SELECT
+    comandoSQL = f'SELECT id, nome, imagem from produtos WHERE id = {id}'
+    cursor.execute(comandoSQL)
 
+    resultadoConsulta = cursor.fetchone()
+
+    return resultadoConsulta

@@ -58,4 +58,12 @@ containerumproduto = col3.container(border=True)
 
 with containerumproduto:
     containerumproduto.markdown('## listar um produto')
-    codigodoproduto = 
+    codigodoproduto = st.text_input('codigo do produto a ser listado')
+    btnprocurarproduto = st.button('procurar produto')
+    if btnprocurarproduto:
+        produtoselecionado = fc.consultarPeloId(codigodoproduto)
+
+
+        if produtoselecionado:
+            st.write(produtoselecionado)
+            st.image(f'{produtoselecionado[3]}')
