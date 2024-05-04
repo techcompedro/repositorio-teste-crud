@@ -1,10 +1,9 @@
 import mysql.connector
-
 conexao = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
-    database="loja",
+    database="bdloja",
 )
 
 cursor = conexao.cursor()
@@ -40,8 +39,25 @@ def atualizarPreco(id: str, novo_valor: float):
 
 
 # funcao deletar
-def deletarProduto(id: str):
+def deletarProduto(id: int):
     comando_sql = f'DELETE FROM produtos WHERE id = "{id}"'
     cursor.execute(comando_sql)
     conexao.commit()
+
+def att_nome(id: int, novo_nome:str ):
+    #UPATE - ATT OS DADOS, ATRAVÉS DO ID
+    consultaSQL = f'UPDATE produtos SET nome_produto = "{novo_nome}"\
+    WHERE id_produto = {id}'
+    cursor.execute(consultaSQL)
+    conexao.commit()
+
+def vs():
+    # consultarTodos
+    # R - READ - SELECT
+    comandoSQL = f'SELECT id, nome, preco * FROM produtos'
+    cursor.execute(comandoSQL)
+    resultadoConsulta = cursor.fetchall()
+    return resultadoConsulta
+
+
 
